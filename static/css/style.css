@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    font-family: "Roboto Mono", monospace;
+    text-decoration: none;
+    color: black;
+}
+.logo_logar{
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(93, 187, 135);
+    z-index: 2;
+}
+.LogoI{
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 18px;
+    left: 36px;
+}
+.texto_cabecalho{
+    position: fixed;
+    top: 18px;
+    right: 12px;
+    text-align: right;
+    
+}
+.rotibar_de_informacao{
+    position: fixed;
+    background-color: aquamarine;
+    z-index: 2;
+    width: 100%;
+    height: 5vh;
+    top: 9%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 7px;
+}
+.home{
+    position: relative;
+    left: -160px;
+}
+.quem_somos{
+    position: relative;
+    left: -32px;
+}
+.franqueados{
+    position: relative;
+    right: -86px;
+}
+.Lupa{
+    position: relative;
+    right: -185px;
+}
+main{
+    padding: 103px 0px 0px;
+}
+footer{
+    background-color: rgb(93, 187, 135);
+    height: 30vh;
+}
+.botão_de_contato{
+    position: relative;
+    background-color: green;
+    width: 150px;
+    height: 55px;
+    border-radius: 64px;
+    right: 0px;
+    bottom: 0px;
+    font-size: 25px;
+    right: -780px;
+    bottom: 183px;
+    text-align: center;
+}
+.banner_inicial{
+    height:76vh;
+}
+.texto-contato{
+    position: relative;
+    top: 10px;
+}
+h1{
+    position: absolute;
+    z-index: 0;
+    top: 290px;
+    left: 20px;
+    font-size: 60px;
+}
+.instagran{
+    position: absolute;
+    top: ;
+}

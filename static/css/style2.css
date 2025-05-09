@@ -1,0 +1,114 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0077b6;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo_logar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.LogoI {
+    height: 50px;
+}
+
+.texto_cabecalho a {
+    margin-left: 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Menu de navegação */
+.rotibar_de_informacao nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.rotibar_de_informacao a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.rotibar_de_informacao a:hover {
+    color: #90e0ef;
+}
+
+/* Corrigir erro de atributo "classe" */
+a.classe, a.classeI {
+    display: inline-block;
+}
+
+/* Banner principal */
+.banner_inicial {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.banner_inicial h1 {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #0077b6;
+}
+
+.botão_de_contato a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.botão_de_contato a:hover {
+    background-color: #005f87;
+}
+
+/* Rodapé */
+footer {
+    background-color: #023e8a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer img {
+    margin-right: 8px;
+}
+
+address a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+    font-size: 0.9rem;
+}
+
+address a:hover {
+    text-decoration: underline;
+}
